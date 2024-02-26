@@ -1,34 +1,57 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
-.navbar{
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    height: 7vh;
-    display: flex;
-    justify-content: space-between;
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .navbar .logo {
-    color: #181818;
-    padding: 10px;
-    padding: 10px;
+  color: #181818;
+  font-weight: bold;
 }
 
-.navbar .btn{
-    background-color: #4461FA; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 30px;
-    text-align: justify;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+ .btn {
+  background-color: #4461fa; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: justify;
+  font-size: 16px;
 }
-.body .bg{
-    width: 100%;
-    height:100vh;
+.body{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.body p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.body .btn{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+}
+.body input{
+    border: none;
+    height:  25px;
+    font-size: 16px;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+.body .bg {
+  width: 100%;
+  height: auto;
 }

@@ -26,6 +26,7 @@
   padding: 10px 20px;
   text-align: justify;
   font-size: 16px;
+  transition: .5s;
 }
 .btn2{
   padding: 8px 18px;
@@ -99,4 +100,16 @@ footer{
 .text h3{
   color: #585656;
   padding: 10px;
+}
+.btn:hover{
+    background-color: white;
+    color: #585656;
+    border: 2px solid #1500ff;
+  font-size: 18px;
+}
+.btn2:hover{
+  background: transparent;
+  color: white;
+  border: 2px solid #1500ff;
+  font-size: 18px;
 }

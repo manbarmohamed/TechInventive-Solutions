@@ -18,38 +18,37 @@
   font-weight: bold;
 }
 
- .btn {
+.btn {
   background-color: #4461fa; /* Green */
   border: none;
   color: white;
-  padding: 15px 20px;
+  border-radius: 8px;
+  padding: 10px 20px;
   text-align: justify;
   font-size: 16px;
 }
-.body{
-    position: relative;
+.body{ 
+    padding-top: 150px;
+    width: 100%;
+    height: 500px;
+    background: url(./imgs/bg.jpg) no-repeat top right/cover;
     text-align: center;
     color: white;
 }
-.body p{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.body h1{
+  padding: 10px;
+  margin: 10px;
+
 }
-.body .btn{
-    position: absolute;
-    top: 60%;
-    left: 60%;
+.body div{
+ 
+  margin: 10px;
 }
 .body input{
+  padding: 9px;
+  margin: 15px;
     border: none;
-    height:  25px;
     font-size: 16px;
-    position: absolute;
-    top: 60%;
-    left: 35%;
-    transform: translate(-50%, -50%);
 }
 .body .bg {
   width: 100%;

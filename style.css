@@ -27,6 +27,9 @@
   text-align: justify;
   font-size: 16px;
 }
+.btn2{
+  padding: 8px 18px;
+}
 .body{ 
     padding-top: 150px;
     width: 100%;
@@ -45,12 +48,37 @@
   margin: 10px;
 }
 .body input{
-  padding: 9px;
-  margin: 15px;
+  padding: 8px 10px;
+    margin: 15px;
     border: none;
+    border-radius: 5px;
     font-size: 16px;
+}
+.card img{
+  width: 80px;
+  margin-left: 120px;
 }
 .body .bg {
   width: 100%;
   height: auto;
+}
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+  margin: 30px;
+
+}
+.card{
+  padding: 30px;
+    width: 619Px;
+    height: 220px;
+    margin: 30px;
+    
+    /* background-color: rgb(0, 255, 166); */
+}
+.card h2,p{
+  line-height: 35px;
+  margin-left: 105px;
 }

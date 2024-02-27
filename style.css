@@ -19,7 +19,7 @@
 }
 
 .btn {
-  background-color: #4461fa; /* Green */
+  background-color: #4461fa; 
   border: none;
   color: white;
   border-radius: 8px;
@@ -115,5 +115,8 @@ footer{
 }
 .card:hover{
   height: auto;
-  background-color: #f5f5f5;
+  background-color: #f9f6f6;
+}
+.body input:focus{
+  outline:2px solid #3c4cff;
 }

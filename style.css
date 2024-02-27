@@ -113,3 +113,7 @@ footer{
   border: 2px solid #1500ff;
   font-size: 18px;
 }
+.card:hover{
+  height: auto;
+  background-color: #f5f5f5;
+}

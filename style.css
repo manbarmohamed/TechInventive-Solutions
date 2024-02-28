@@ -43,7 +43,7 @@
     padding-top: 150px;
     width: 100%;
     height: 500px;
-    background: url(./imgs/bg.jpg) no-repeat top right/cover;
+    background: url(./imgs/bg.jpg) no-repeat  top right/cover;
     text-align: center;
     color: white;
 }
@@ -96,17 +96,25 @@
 footer{
   width: 100%;
     height: 200px;
-    background-color: #EBEBF3;
+    background-color: #fefefe;
+    border-top: 1px solid #051641 ;
 }
-.icon , .text{
+footer .icon , .text{
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 30px;
+  margin: 10px;
+}
+.bar{
+  background: #051641;
+  padding: 10px;
+  color: white;
+  text-align: center;
 }
 .icon img{
-  width: 40px;
-  margin:20px 20px;
+  width: 50px;
+  margin: 20px;
 }
 .text h3{
   color: #585656;

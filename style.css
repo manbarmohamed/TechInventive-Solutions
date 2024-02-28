@@ -4,11 +4,12 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-
+:root{
+  --btn-color:#288CE8;
+}
 .navbar {
-  width: 85%;
-  margin: auto;
-  padding: 5px 0;
+  width: 100%;
+  padding: 15px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -16,20 +17,27 @@
 .navbar .logo {
   color: #181818;
   font-weight: bold;
+  margin-left: 45px;
+  font-size: 20px;
 }
 
 .btn {
-  background-color: #4461fa; 
+  background-color: var(--btn-color); 
   border: none;
   color: white;
   border-radius: 8px;
   padding: 10px 20px;
+  margin-right: 45px;
   text-align: justify;
   font-size: 16px;
   transition: .5s;
 }
 .btn2{
-  padding: 8px 18px;
+    padding: 7px 25px;
+    margin-left: 7px;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid var(--btn-color);
 }
 .body{ 
     padding-top: 150px;
@@ -45,11 +53,11 @@
 
 }
 .body div{
- 
+  text-align: center;
   margin: 10px;
 }
 .body input{
-  padding: 8px 10px;
+  padding: 7px 100px 7px 7px;
     margin: 15px;
     border: none;
     border-radius: 5px;
@@ -66,21 +74,24 @@
 .cards{
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 60px;
-  margin: 30px;
+  justify-content: space-around;
+  width: 100%;
+  height: 500px;
 }
 .card{
-  padding: 30px;
-    width: 619Px;
-    height: 220px;
-    margin: 30px;
+  text-align: center;
     
-    /* background-color: rgb(0, 255, 166); */
 }
 .card h2,p{
   line-height: 35px;
   margin-left: 105px;
+}
+.card p{
+  width: 300px;
+  font-size: smaller;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #8C8383;
 }
 footer{
   width: 100%;
@@ -104,19 +115,15 @@ footer{
 .btn:hover{
     background-color: white;
     color: #585656;
-    border: 2px solid #1500ff;
+    border: 2px solid var(--btn-color);
   font-size: 18px;
 }
 .btn2:hover{
   background: transparent;
   color: white;
-  border: 2px solid #1500ff;
+  border: 2px solid var(--btn-color);
   font-size: 18px;
 }
-.card:hover{
-  height: auto;
-  background-color: #f9f6f6;
-}
 .body input:focus{
-  outline:2px solid #3c4cff;
+  outline:2px solid var(--btn-color);
 }

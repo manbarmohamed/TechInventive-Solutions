@@ -50,7 +50,10 @@
 .body h1{
   padding: 10px;
   margin: 10px;
-
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 60px;
+  word-spacing: 12px;
 }
 .body div{
   text-align: center;
@@ -117,6 +120,7 @@ footer .icon , .text{
   margin: 20px;
 }
 .text h3{
+  position: relative;
   color: #585656;
   padding: 10px;
 }
@@ -134,4 +138,11 @@ footer .icon , .text{
 }
 .body input:focus{
   outline:2px solid var(--btn-color);
+}
+.text h3 span{
+  position: absolute;
+  bottom: 12px;
+  left: 1px;
+  font-size: 30px;
+  
 }

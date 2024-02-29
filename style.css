@@ -1,18 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: 'Lato', sans-serif;
 }
 :root{
-  --btn-color:#288CE8;
+  --btn-color:#017bff;
 }
 .navbar {
+  position: fixed;
   width: 100%;
+  height: 55px;
   padding: 15px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #fff;
 }
 .navbar .logo {
   color: #181818;
@@ -33,7 +40,7 @@
   transition: .5s;
 }
 .btn2{
-    padding: 7px 25px;
+    padding: 10px 25px;
     margin-left: 7px;
     border-radius: 3px;
     cursor: pointer;
@@ -46,12 +53,13 @@
     background: url(./imgs/bg.jpg) no-repeat  top right/cover;
     text-align: center;
     color: white;
+    
 }
-.body h1{
+.body p{
   padding: 10px;
   margin: 10px;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 45px;
   line-height: 60px;
   word-spacing: 12px;
 }
@@ -60,15 +68,15 @@
   margin: 10px;
 }
 .body input{
-  padding: 7px 100px 7px 7px;
-    margin: 15px;
+  padding: 10px 100px 10px 10px;
+  margin: 15px;
     border: none;
     border-radius: 5px;
     font-size: 16px;
 }
 .card img{
-  width: 80px;
-  margin-left: 120px;
+  width: 70px;
+  /* margin-left: 120px; */
 }
 .body .bg {
   width: 100%;
@@ -77,24 +85,32 @@
 .cards{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   width: 100%;
-  height: 500px;
+  height: 400px;
 }
 .card{
-  text-align: center;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 15px;
     
 }
-.card h2,p{
-  line-height: 35px;
-  margin-left: 105px;
-}
-.card p{
-  width: 300px;
-  font-size: smaller;
+.cards .card h2{
+  margin: 10px;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #8C8383;
+}
+.cards .card h2,p{
+  line-height: 35px;
+
+}
+.cards .card p{
+  color: #050505;
+  text-align: center;
 }
 footer{
   width: 100%;
@@ -128,7 +144,7 @@ footer .icon , .text{
     background-color: white;
     color: #585656;
     border: 2px solid var(--btn-color);
-  font-size: 18px;
+    /* font-size: 18px; */
 }
 .btn2:hover{
   background: transparent;
@@ -145,4 +161,7 @@ footer .icon , .text{
   left: 1px;
   font-size: 30px;
   
+}
+.cards .card:hover{
+  background-color: #E0F4FF;
 }

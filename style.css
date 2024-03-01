@@ -153,6 +153,7 @@ footer .icon  {
     background-color: white;
     color: #585656;
     border: 2px solid var(--btn-color);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     /* font-size: 18px; */
 }
 .btn2:hover{
@@ -172,4 +173,6 @@ footer .icon  {
 }
 .cards .card:hover{
   background-color: #E0F4FF;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
